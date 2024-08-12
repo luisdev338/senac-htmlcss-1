@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
+    text-decoration: none;  
 }
 header{
     position: relative;
@@ -172,4 +172,18 @@ nav > a {
     padding: 10px;
     text-decoration: none;
     transition-duration: 0.5s;
+}
+.paragrafo{
+    display: flex;
+    flex-direction: column;
+    margin:15px;
+    font-size: 20px;
+}
+
+.tab1, .textop3, .textop31{
+    margin: 15px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
